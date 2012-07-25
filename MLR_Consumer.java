@@ -43,7 +43,7 @@ public class MLR_Consumer {
             }
         }
     }
-
+// initial loader
     public static void main(String[] args) throws Exception {
         Queue<MLR_Message> queue = new ConcurrentLinkedQueue<MLR_Message>();
         MLR_Consumer instance = new MLR_Consumer(queue);
